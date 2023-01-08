@@ -13,11 +13,16 @@ public class App02GamingBasic {
         // App02Configuration - @Configuration
         // name - @Bean
 
-        // 3: Retrieve beans managed by spring
-        context.getBean("name");
-        context.getBean("age");
-        context.getBean("person");
-        context.getBean("address");
+        // 3: Retrieve beans managed by spring name of bean
+        System.out.println("context.getBean(\"name\") = " + context.getBean("name"));
+        System.out.println("context.getBean(\"age\") = " + context.getBean("age"));
+        System.out.println("context.getBean(\"person1\") = " + context.getBean("person1"));
+        System.out.println("context.getBean(\"person2\") = " + context.getBean("person2"));
+        System.out.println("context.getBean(\"person3MethodCall\") = " + context.getBean("person3MethodCall"));
+        System.out.println("context.getBean(\"person4Parameters\") = " + context.getBean("person4Parameters"));
+
+        // parsing with a class - default singleton
+        // System.out.println("context.getBean(Address.class) = " + context.getBean(Address.class));
 
     }
 

@@ -1,4 +1,3 @@
 package com.yeahbutstill;
 
-public record Address(String firstLine, String city) {
-}
+public record Address(String firstLine, String city) {}
