@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class App02Configuration {
 
+    // Spring bean
     @Bean
     public String name() {
         return "Dani Setiawan";
