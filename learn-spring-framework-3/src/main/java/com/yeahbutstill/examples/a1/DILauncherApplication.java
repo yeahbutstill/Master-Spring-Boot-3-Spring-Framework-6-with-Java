@@ -1,20 +1,25 @@
 package com.yeahbutstill.examples.a1;
 
-import com.yeahbutstill.game.GameRunner;
-import com.yeahbutstill.game.GamingConsole;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.Arrays;
+
 @Configuration
-@ComponentScan("com.yeahbutstill.game")
+@ComponentScan
 public class DILauncherApplication {
 
     public static void main(String[] args) {
 
-        var context = new AnnotationConfigApplicationContext(DILauncherApplication.class);
-        context.getBean(GamingConsole.class).up();
-        context.getBean(GameRunner.class).run();
+
+        try {
+            var context = new AnnotationConfigApplicationContext(DILauncherApplication.class);
+            Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
+            System.out.println("context.getBean(\"yourBusiness\") = " + context.getBean("yourBusiness"));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
     }
 
