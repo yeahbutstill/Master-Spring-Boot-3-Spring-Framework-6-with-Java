@@ -2,8 +2,6 @@ package com.yeahbutstill;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import java.util.Arrays;
-
 
 public class App02GamingBasic {
 
