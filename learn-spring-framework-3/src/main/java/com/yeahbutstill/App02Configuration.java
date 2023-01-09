@@ -1,7 +1,9 @@
 package com.yeahbutstill;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 @Configuration
 public class App02Configuration {
@@ -38,11 +40,24 @@ public class App02Configuration {
     }
 
     @Bean
+    @Primary
+    public Person person5Parameters(String name, Integer age, Address address) {
+        return new Person(name, age, address);
+    }
+
+    @Bean
+    public Person person6ParametersQualifier(String name, Integer age, @Qualifier("address3Qualifier") Address address) {
+        return new Person(name, age, address);
+    }
+
+    @Bean
+    @Primary
     public Address address() {
       return new Address("JL. Semoga Awet 2", "Citayam");
     }
 
     @Bean(name = "address3")
+    @Qualifier("address3Qualifier")
     public Address address3() {
         return new Address("JL. Wali Songong", "Bojong Gede");
     }

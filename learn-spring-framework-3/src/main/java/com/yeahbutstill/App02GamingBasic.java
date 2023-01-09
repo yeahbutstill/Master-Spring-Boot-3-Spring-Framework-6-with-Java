@@ -2,6 +2,8 @@ package com.yeahbutstill;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.Arrays;
+
 
 public class App02GamingBasic {
 
@@ -22,7 +24,12 @@ public class App02GamingBasic {
         System.out.println("context.getBean(\"person4Parameters\") = " + context.getBean("person4Parameters"));
 
         // parsing with a class - default singleton
-        // System.out.println("context.getBean(Address.class) = " + context.getBean(Address.class));
+        System.out.println("context.getBean(Address.class) = " + context.getBean(Address.class));
+        System.out.println("context.getBean(\"person6ParametersQualifier\") = " + context.getBean("person6ParametersQualifier"));
+
+        System.out.println("====================================================");
+
+//        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
 
     }
 
