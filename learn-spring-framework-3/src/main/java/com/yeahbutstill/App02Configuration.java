@@ -1,5 +1,7 @@
 package com.yeahbutstill;
 
+import com.yeahbutstill.data.Address;
+import com.yeahbutstill.data.Person;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
