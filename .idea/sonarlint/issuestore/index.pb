@@ -1,6 +1,4 @@
 
-ç
-]learn-spring-framework-3/src/main/java/com/yeahbutstill/examples/a1/exercise/DataService.java,b/b/bb92725f734bca0844160baef5da9c8fd5ff9721
 É
 Slearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/a1/Dependecy2.java,f/4/f4a53e7de47ef4a11a77ee080993d21092fdc86d
 Ö
@@ -15,14 +13,8 @@ Olearn-spring-framework-3/src/main/java/com/yeahbutstill/game/GamingConsole.java
 Llearn-spring-framework-3/src/main/java/com/yeahbutstill/game/GameRunner.java,2/f/2fe45ecd9cf5c664bc2f58975ecdfa717ae2b0f6
 Å
 Qlearn-spring-framework-3/src/main/java/com/yeahbutstill/game/SuperContraGame.java,5/f/5f73f26c6e48ba386be8a9433416cdbf4c83a2b6
-î
-dlearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/a1/exercise/MysqlDbDataService.java,9/4/94fde8d0aef7d16359c3f5c7a2dad20b6a5b2a52
 Ü
 Vlearn-spring-framework-3/src/main/java/com/yeahbutstill/GamingLauncherApplication.java,c/8/c8406b83e285fd0457ee2a257ff2f59ab5640fe9
-ú
-llearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/a1/exercise/BusinessCalculationService.java,0/2/02fc34d66b12950c7b9c793371cdebfdbcb1026c
-î
-dlearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/a1/exercise/MongoDbDataService.java,e/9/e91787f1f1c2e5f5074793f1370fbcd7c153ca8c
 É
 Slearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/a1/Dependecy1.java,7/7/77a1f94be4b090ffad38844787f228aa3c055c50
 é
@@ -57,9 +49,3 @@ P
 qlearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/lazzy/LazyInitializationLauncherApplication.java,a/a/aaf1b8ba4f9d3b8fd75428bb07b1272db1d008d2
 ò
 hlearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/prepost/PrepostLauncherApplication.java,4/a/4a724b3ae755dbf32869252a39da07c4ee86319f
-â
-Ylearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/cdi/BusinessService.java,6/5/65353f38851d0a67b975ba130e84febd73eca6c8
-Ö
-Ulearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/cdi/DataService.java,1/b/1bc2494434cc5e5cd29a3fae694023668ccd2464
-ó
-glearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/cdi/CDIContextLauncherApplication.java,d/a/daa4839a4cb9c5a44cbe7e2affba773e4d9102b6

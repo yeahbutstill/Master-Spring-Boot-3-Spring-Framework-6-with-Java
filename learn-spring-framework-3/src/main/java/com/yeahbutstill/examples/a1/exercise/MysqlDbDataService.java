@@ -1,9 +1,9 @@
 package com.yeahbutstill.examples.a1.exercise;
 
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 @Qualifier("mysqlDbDataServiceQualifier")
 public class MysqlDbDataService implements DataService {
     @Override
