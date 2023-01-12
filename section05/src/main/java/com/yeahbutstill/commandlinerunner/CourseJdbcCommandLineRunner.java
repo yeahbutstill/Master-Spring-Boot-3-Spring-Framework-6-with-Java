@@ -1,5 +1,6 @@
 package com.yeahbutstill.commandlinerunner;
 
+import com.yeahbutstill.entity.Course;
 import com.yeahbutstill.repository.CourseJdbcRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -17,7 +18,16 @@ public class CourseJdbcCommandLineRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        courseJdbcRepository.insert();
+        // INSERT
+        courseJdbcRepository.insert(new Course(1L, "Learn AWS", "Yeah But Still"));
+        courseJdbcRepository.insert(new Course(2L, "Learn Docker", "Yeah But Still"));
+        courseJdbcRepository.insert(new Course(3L, "Learn Vault", "Yeah But Still"));
+        courseJdbcRepository.insert(new Course(4L, "Learn Keycloak", "Yeah But Still"));
+        courseJdbcRepository.insert(new Course(5L, "Learn OAuth2", "Yeah But Still"));
+        courseJdbcRepository.insert(new Course(666L, "STAN", "Luchifer"));
+
+        // DELETE
+        courseJdbcRepository.deleteById(666L);
     }
 
 }
