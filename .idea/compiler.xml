@@ -7,8 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="learn-spring-framework-3" />
         <module name="section05" />
+        <module name="learn-spring-framework-3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
