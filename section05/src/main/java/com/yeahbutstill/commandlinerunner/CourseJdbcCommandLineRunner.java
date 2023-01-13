@@ -2,11 +2,13 @@ package com.yeahbutstill.commandlinerunner;
 
 import com.yeahbutstill.entity.Course;
 import com.yeahbutstill.repository.CourseJdbcRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
+@Slf4j
 public class CourseJdbcCommandLineRunner implements CommandLineRunner {
 
     private final CourseJdbcRepository courseJdbcRepository;
@@ -28,6 +30,10 @@ public class CourseJdbcCommandLineRunner implements CommandLineRunner {
 
         // DELETE
         courseJdbcRepository.deleteById(666L);
+
+        // SELECT
+        log.info("courseJdbcRepository.findById() = " + courseJdbcRepository.findById(1L));
+        log.info("courseJdbcRepository.findById() = " + courseJdbcRepository.findById(5L));
     }
 
 }
