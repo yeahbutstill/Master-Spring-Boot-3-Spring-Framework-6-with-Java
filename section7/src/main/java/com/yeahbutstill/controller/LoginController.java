@@ -11,10 +11,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class LoginController {
 
     // login?name=Dani
+//    @RequestMapping("/login")
+//    public String goToLogginPage(@RequestParam String name, ModelMap modelMap) {
+//        modelMap.put("name", name);
+//        log.info("Req param is {}", name);
+//        return "login";
+//    }
+
     @RequestMapping("/login")
-    public String goToLogginPage(@RequestParam String name, ModelMap modelMap) {
-        modelMap.put("name", name);
-        log.info("Req param is {}", name);
+    public String goToLogginPage() {
         return "login";
     }
 
