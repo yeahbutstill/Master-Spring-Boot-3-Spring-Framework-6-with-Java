@@ -1,4 +1,4 @@
-package com.yeahbutstill.config;
+package com.yeahbutstill.service;
 
 import lombok.Getter;
 import lombok.Setter;
