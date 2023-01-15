@@ -14,12 +14,13 @@ public class TodoServiceImpl implements TodoService {
 
     static {
         todos.add(new Todo(1L, "yeahbutstill", "Learn AWS", LocalDate.now().plusYears(1), false));
-        todos.add(new Todo(1L, "yeahbutstill", "Learn DevOps", LocalDate.now().plusYears(1), false));
-        todos.add(new Todo(1L, "yeahbutstill", "Learn Vault", LocalDate.now().plusYears(1), false));
+        todos.add(new Todo(2L, "yeahbutstill", "Learn DevOps", LocalDate.now().plusYears(1), false));
+        todos.add(new Todo(3L, "yeahbutstill", "Learn Vault", LocalDate.now().plusYears(1), false));
     }
 
     @Override
     public List<Todo> findByUsername(String username) {
         return todos;
     }
+
 }
