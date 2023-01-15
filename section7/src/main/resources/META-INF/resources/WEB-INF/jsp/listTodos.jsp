@@ -6,10 +6,10 @@
         <link href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <div>
+        <div class="container">
             <h1>Sup Wellcome ${name}</h1>
             <h2>Your Todos are:</h2>
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
                         <th>ID</th>
