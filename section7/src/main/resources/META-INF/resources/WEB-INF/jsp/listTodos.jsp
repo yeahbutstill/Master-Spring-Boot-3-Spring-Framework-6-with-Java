@@ -4,7 +4,7 @@
 </head>
 <body>
 <div>
-    <h1>Sup Wellcome to yeahbutstill</h1>
+    <h1>Sup Wellcome ${name}</h1>
     <h2>Your Todos are: ${todos}</h2>
 </div>
 </body>
