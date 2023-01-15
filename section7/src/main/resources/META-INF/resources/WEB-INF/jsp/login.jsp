@@ -8,7 +8,7 @@
             <h2>Login</h2>
             <pre>${errorMessage}</pre>
             <form method="POST">
-                <a>Name: <input type="text" name="name"></a>
+                <a>Name: <input type="text" name="username"></a>
                 <a>Password: <input type="password" name="password"></a>
                 <input type="submit">
             </form>

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 @Controller
-@SessionAttributes("name")
+@SessionAttributes("username")
 @Slf4j
 public class LoginController {
 
@@ -28,9 +28,9 @@ public class LoginController {
     }
 
     @PostMapping(value = "/login")
-    public String goToWellcomePage(@RequestParam String name, @RequestParam String password, ModelMap modelMap) {
-        if (Boolean.TRUE.equals(loginAuthenticationService.authenticate(name, password))) {
-            modelMap.put("name", name);
+    public String goToWellcomePage(@RequestParam String username, @RequestParam String password, ModelMap modelMap) {
+        if (Boolean.TRUE.equals(loginAuthenticationService.authenticate(username, password))) {
+            modelMap.put("username", username);
             return "wellcome";
         }
 

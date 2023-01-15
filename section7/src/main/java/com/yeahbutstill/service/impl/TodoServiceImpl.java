@@ -11,16 +11,23 @@ import java.util.List;
 @Service
 public class TodoServiceImpl implements TodoService {
     private static final List<Todo> todos = new ArrayList<>();
+    private static Long todosCount = 0L;
 
     static {
-        todos.add(new Todo(1L, "yeahbutstill", "Learn AWS", LocalDate.now().plusYears(1), false));
-        todos.add(new Todo(2L, "yeahbutstill", "Learn DevOps", LocalDate.now().plusYears(1), false));
-        todos.add(new Todo(3L, "yeahbutstill", "Learn Vault", LocalDate.now().plusYears(1), false));
+        todos.add(new Todo(++todosCount, "yeahbutstill", "Learn AWS", LocalDate.now().plusYears(1), false));
+        todos.add(new Todo(++todosCount, "yeahbutstill", "Learn DevOps", LocalDate.now().plusYears(1), false));
+        todos.add(new Todo(++todosCount, "yeahbutstill", "Learn Vault", LocalDate.now().plusYears(1), false));
     }
 
     @Override
     public List<Todo> findByUsername(String username) {
         return todos;
+    }
+
+    @Override
+    public void addTodo(String username, String description, LocalDate target, Boolean done) {
+        Todo todo = new Todo(++todosCount, username, description, target, done);
+        todos.add(todo);
     }
 
 }

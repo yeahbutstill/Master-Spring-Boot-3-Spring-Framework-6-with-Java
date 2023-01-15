@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="container">
-            <h1>Sup Wellcome ${name}</h1>
+            <h1>Sup Wellcome ${username}</h1>
             <h2>Your Todos are:</h2>
             <table class="table">
                 <thead>
