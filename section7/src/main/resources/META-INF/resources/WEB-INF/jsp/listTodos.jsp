@@ -1,14 +1,10 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
-<html>
-    <head>
-        <title>List Todos Page</title>
-        <link href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <body>
+<%@include file="common/header.jspf"%>
+        <div class="container">
+            <%@include file="common/navigation.jspf"%>
+        </div>
         <div class="container">
             <h1>Sup Wellcome ${username}</h1>
-            <h2>Your Todos are:</h2>
+            <h2>List Doang Dikerjain Kage</h2>
             <table class="table">
                 <thead>
                     <tr>
@@ -33,9 +29,4 @@
                 </tbody>
             </table>
             <a href="add-todo" class="btn btn-success">Add Todo</a>
-
-            <script src="webjars/bootstrap/5.2.3/js/bootstrap.min.js"></script>
-            <script src="webjars/jquery/3.6.3/jquery.min.js"></script>
         </div>
-    </body>
-</html>
