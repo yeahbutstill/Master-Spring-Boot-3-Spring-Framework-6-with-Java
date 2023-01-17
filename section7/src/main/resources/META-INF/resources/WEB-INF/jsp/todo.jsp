@@ -1,6 +1,6 @@
-<%@include file="common/header.jspf"%>
+<%@ include file="common/header.jspf"%>
         <div class="container">
-            <%@include file="common/navigation.jspf"%>
+            <%@ include file="common/navigation.jspf"%>
         </div>
         <div class="container">
             <h2>Enter Todos Details</h2>
@@ -21,3 +21,9 @@
                 <input type="submit" class="btn btn-success">
             </form:form>
         </div>
+        <script type="text/javascript">
+            $('#targetDate').datepicker({
+                format: 'yyyy-mm-dd'
+            });
+        </script>
+<%@ include file="common/footer.jspf"%>

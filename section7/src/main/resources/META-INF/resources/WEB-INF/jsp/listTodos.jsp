@@ -1,6 +1,6 @@
-<%@include file="common/header.jspf"%>
+<%@ include file="common/header.jspf"%>
         <div class="container">
-            <%@include file="common/navigation.jspf"%>
+            <%@ include file="common/navigation.jspf"%>
         </div>
         <div class="container">
             <h1>Sup Wellcome ${username}</h1>
@@ -30,3 +30,4 @@
             </table>
             <a href="add-todo" class="btn btn-success">Add Todo</a>
         </div>
+<%@ include file="common/footer.jspf"%>
