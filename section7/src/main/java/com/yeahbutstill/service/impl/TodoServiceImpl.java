@@ -7,18 +7,17 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.function.Predicate;
 
 @Service
 public class TodoServiceImpl implements TodoService {
     private static final List<Todo> todos = new ArrayList<>();
-    private static Long todosCount = 0L;
+    private static Long todosCount = 1L;
 
     static {
-        todos.add(new Todo(++todosCount, "yeahbutstill", "Learn AWS", LocalDate.now().plusYears(1), false));
-        todos.add(new Todo(++todosCount, "yeahbutstill", "Learn DevOps", LocalDate.now().plusYears(1), false));
-        todos.add(new Todo(++todosCount, "yeahbutstill", "Learn Vault", LocalDate.now().plusYears(1), false));
+        todos.add(new Todo(todosCount++, "yeahbutstill", "Learn AWS", LocalDate.now().plusYears(1), false));
+        todos.add(new Todo(todosCount++, "yeahbutstill", "Learn DevOps", LocalDate.now().plusYears(2), false));
+        todos.add(new Todo(todosCount++, "yeahbutstill", "Learn Vault", LocalDate.now().plusYears(3), false));
     }
 
     @Override
@@ -28,15 +27,27 @@ public class TodoServiceImpl implements TodoService {
 
     @Override
     public void addTodo(String username, String description, LocalDate target, Boolean done) {
-        Todo todo = new Todo(++todosCount, username, description, target, done);
+        Todo todo = new Todo(todosCount++, username, description, target, done);
         todos.add(todo);
     }
 
     @Override
     public void deleteById(Long id) {
         // Lamba func programming
-        Predicate<? super Todo> predicate = todo -> Objects.equals(todo.getId(), id);
+        Predicate<? super Todo> predicate = todo -> todo.getId().equals(id);
         todos.removeIf(predicate);
+    }
+
+    @Override
+    public Todo findById(Long id) {
+        Predicate<? super Todo> predicate = todo -> todo.getId().equals(id);
+        return todos.stream().filter(predicate).findFirst().orElseGet(Todo::new);
+    }
+
+    @Override
+    public void updateTodo(Todo todo) {
+        deleteById(todo.getId());
+        todos.add(todo);
     }
 
 }

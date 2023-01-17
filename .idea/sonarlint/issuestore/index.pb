@@ -49,3 +49,5 @@ qlearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/lazzy/LazyInit
 hlearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/prepost/PrepostLauncherApplication.java,4/a/4a724b3ae755dbf32869252a39da07c4ee86319f
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+ˆ
+Xsection7/src/main/java/com/yeahbutstill/service/impl/LoginAuthenticationServiceImpl.java,6/a/6ae798760df54551b3cd58cb2ea40fa1b2fc1fea

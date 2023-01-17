@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RESTKit_RequestSetting">
+    <option name="downloadDirectory" value="$PROJECT_DIR$/.idea/restkit/files" />
+    <option name="project" value="Master-Spring-Boot-3-Spring-Framework-6-with-Java" />
+    <option name="saveRequestLog" value="false" />
+  </component>
+</project>
