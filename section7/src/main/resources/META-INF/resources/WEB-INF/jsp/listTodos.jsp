@@ -3,7 +3,7 @@
             <%@ include file="common/navigation.jspf"%>
         </div>
         <div class="container">
-            <h1>Sup Wellcome ${username}</h1>
+            <h1>Sup welcome ${username}</h1>
             <h2>List Doang Dikerjain Kage</h2>
             <table class="table">
                 <thead>

@@ -4,6 +4,8 @@ import com.yeahbutstill.entity.Todo;
 import com.yeahbutstill.service.impl.TodoServiceImpl;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -28,14 +30,15 @@ public class TodoController {
 
     @GetMapping(value = "/list-todos")
     public String listAllTodos(ModelMap modelMap) {
-        List<Todo> todos = todoService.findByUsername("yeahbutstill");
+        String username = getLoggedInUsername(modelMap);
+        List<Todo> todos = todoService.findByUsername(username);
         modelMap.addAttribute("todos", todos);
         return "listTodos";
     }
 
     @GetMapping(value = "/add-todo")
     public String showNewTodoPage(ModelMap modelMap) {
-        String username = (String) modelMap.get("username");
+        String username = getLoggedInUsername(modelMap);
         Todo todo = new Todo(1L, username, "Please edit this description", LocalDate.now().plusYears(1), false);
         modelMap.put("todo", todo);
         return "todo";
@@ -46,7 +49,7 @@ public class TodoController {
         if (bindingResult.hasErrors()) {
             return "todo";
         }
-        String username = (String) modelMap.get("username");
+        String username = getLoggedInUsername(modelMap);
         todoService.addTodo(username,  todo.getDescription(), todo.getTargetDate(), false);
         return "redirect:/list-todos";
     }
@@ -69,10 +72,15 @@ public class TodoController {
         if (bindingResult.hasErrors()) {
             return "todo";
         }
-        String username = (String) modelMap.get("username");
+        String username = getLoggedInUsername(modelMap);
         todo.setUsername(username);
         todoService.updateTodo(todo);
         return "redirect:list-todos";
+    }
+
+    private static String getLoggedInUsername(ModelMap modelMap) {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        return authentication.getName();
     }
 
 }
