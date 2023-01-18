@@ -15,9 +15,9 @@ public class TodoServiceImpl implements TodoService {
     private static Long todosCount = 1L;
 
     static {
-        todos.add(new Todo(todosCount++, "yeahbutstill", "Learn AWS", LocalDate.now().plusYears(1), false));
-        todos.add(new Todo(todosCount++, "yeahbutstill", "Learn DevOps", LocalDate.now().plusYears(2), false));
-        todos.add(new Todo(todosCount++, "yeahbutstill", "Learn Vault", LocalDate.now().plusYears(3), false));
+        todos.add(new Todo(todosCount++, "yeahbutstill", "Learn AWS 1", LocalDate.now().plusYears(1), false));
+        todos.add(new Todo(todosCount++, "yeahbutstill", "Learn DevOps 2", LocalDate.now().plusYears(2), false));
+        todos.add(new Todo(todosCount++, "yeahbutstill", "Learn Vault 3", LocalDate.now().plusYears(3), false));
     }
 
     @Override

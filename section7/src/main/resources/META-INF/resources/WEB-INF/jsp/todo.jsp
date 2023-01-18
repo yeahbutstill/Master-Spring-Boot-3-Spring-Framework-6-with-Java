@@ -21,9 +21,4 @@
                 <input type="submit" class="btn btn-success">
             </form:form>
         </div>
-        <script type="text/javascript">
-            $('#targetDate').datepicker({
-                format: 'yyyy-mm-dd'
-            });
-        </script>
 <%@ include file="common/footer.jspf"%>
