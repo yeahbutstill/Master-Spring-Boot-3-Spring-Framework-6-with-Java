@@ -14,8 +14,8 @@ mysql:8
 
 ## MySQLsh Commands
 ```shell
-mysqlsh \
-connect todos-user@localhost:3306 \
-sql use todos select * from todo; \
-quit
+docker exec -it {NAME_OF_CONTAINER} bash 
+mysqlsh connect todos-user@localhost:3306 
+\sql use todos; 
+select * from todo;
 ```
