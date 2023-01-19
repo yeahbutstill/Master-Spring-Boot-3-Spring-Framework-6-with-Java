@@ -10,10 +10,12 @@
         <module name="learn-spring-framework-3" />
         <module name="section05" />
         <module name="section7" />
+        <module name="restful-web-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="learn-spring-framework-3" target="17" />
+      <module name="restful-web-service" target="17" />
       <module name="section05" target="17" />
       <module name="section7" target="17" />
     </bytecodeTargetLevel>
@@ -21,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="learn-spring-framework-3" options="-parameters" />
+      <module name="restful-web-service" options="-parameters" />
       <module name="section05" options="-parameters" />
       <module name="section7" options="-parameters" />
     </option>

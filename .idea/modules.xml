@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Master-Spring-Boot-3-Spring-Framework-6-with-Java.iml" filepath="$PROJECT_DIR$/.idea/Master-Spring-Boot-3-Spring-Framework-6-with-Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework-3/learn-spring-framework-3.iml" filepath="$PROJECT_DIR$/learn-spring-framework-3/learn-spring-framework-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restful-web-service/restful-web-service.iml" filepath="$PROJECT_DIR$/restful-web-service/restful-web-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/section05/section05.iml" filepath="$PROJECT_DIR$/section05/section05.iml" />
       <module fileurl="file://$PROJECT_DIR$/section7/section7.iml" filepath="$PROJECT_DIR$/section7/section7.iml" />
     </modules>
