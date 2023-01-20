@@ -19,3 +19,8 @@ mysqlsh connect todos-user@localhost:3306
 \sql use todos; 
 select * from todo;
 ```
+
+## Swagger
+```http request
+localhost:8080/swagger-ui.html
+```

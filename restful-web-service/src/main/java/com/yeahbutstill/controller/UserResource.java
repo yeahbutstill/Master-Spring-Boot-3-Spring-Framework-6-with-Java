@@ -29,7 +29,7 @@ public class UserResource {
     }
 
     @GetMapping(path = "/users/{id}")
-    public User retrieveUser(@PathVariable Long id) {
+    public User retrieveUser(@Valid @PathVariable Long id) {
         User user = userDao.findOne(id);
         if (user == null) {
             throw new UserNotFoundException("id: " + id);
@@ -51,7 +51,7 @@ public class UserResource {
     }
 
     @DeleteMapping(path = "/users/{id}")
-    public void deleteUser(@PathVariable Long id) {
+    public void deleteUser(@Valid @PathVariable Long id) {
         userDao.deleteById(id);
     }
 
