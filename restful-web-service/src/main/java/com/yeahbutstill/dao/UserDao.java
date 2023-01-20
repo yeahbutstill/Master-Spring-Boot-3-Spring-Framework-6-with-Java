@@ -1,6 +1,6 @@
 package com.yeahbutstill.dao;
 
-import com.yeahbutstill.bean.User;
+import com.yeahbutstill.entity.User;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package com.yeahbutstill.bean;
+package com.yeahbutstill.entity;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;

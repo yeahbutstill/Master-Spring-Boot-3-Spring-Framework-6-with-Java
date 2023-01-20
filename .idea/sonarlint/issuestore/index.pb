@@ -49,3 +49,7 @@ qlearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/lazzy/LazyInit
 hlearn-spring-framework-3/src/main/java/com/yeahbutstill/examples/prepost/PrepostLauncherApplication.java,4/a/4a724b3ae755dbf32869252a39da07c4ee86319f
 z
 Jsection7/src/main/java/com/yeahbutstill/controller/SayHelloController.java,b/5/b5f883ef56567a13d30a398ada46e7927344ac43
+{
+Krestful-web-service/src/main/java/com/yeahbutstill/bean/HelloWorldBean.java,9/5/95601c29be53d19ff049d067c4edfee228b376bc
+‡
+Wrestful-web-service/src/main/java/com/yeahbutstill/controller/HelloWorldController.java,8/2/827d04a51c94a76eed80e7beb986aa2d08db69fc

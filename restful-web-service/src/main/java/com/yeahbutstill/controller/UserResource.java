@@ -1,7 +1,7 @@
 package com.yeahbutstill.controller;
 
-import com.yeahbutstill.bean.User;
 import com.yeahbutstill.dao.UserDao;
+import com.yeahbutstill.entity.User;
 import com.yeahbutstill.exception.UserNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
