@@ -51,5 +51,3 @@ z
 Jsection7/src/main/java/com/yeahbutstill/controller/SayHelloController.java,b/5/b5f883ef56567a13d30a398ada46e7927344ac43
 {
 Krestful-web-service/src/main/java/com/yeahbutstill/bean/HelloWorldBean.java,9/5/95601c29be53d19ff049d067c4edfee228b376bc
-‡
-Wrestful-web-service/src/main/java/com/yeahbutstill/controller/HelloWorldController.java,8/2/827d04a51c94a76eed80e7beb986aa2d08db69fc

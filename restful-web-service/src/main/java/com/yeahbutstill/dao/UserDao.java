@@ -30,12 +30,19 @@ public class UserDao {
     public User save(User user) {
         user.setId(userCount++);
         users.add(user);
+
         return user;
     }
 
     public User findOne(Long id) {
         Predicate<? super User> predicate = user -> user.getId().equals(id);
+
         return users.stream().filter(predicate).findFirst().orElse(null);
+    }
+
+    public void deleteById(Long id) {
+        Predicate<? super User> predicate = user -> user.getId().equals(id);
+        users.removeIf(predicate);
     }
 
 }
