@@ -1,8 +1,6 @@
 package com.yeahbutstill.entity;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.*;
 
 import java.time.LocalDate;
 
@@ -16,11 +14,13 @@ public class User {
     @NotNull
     @NotEmpty
     @NotBlank
+    @Size(min = 6, max = 30)
     private String name;
 
     @NotNull
     @NotEmpty
     @NotBlank
+    @Past
     private LocalDate birthDate;
 
     public User() {

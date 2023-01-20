@@ -3,6 +3,7 @@ package com.yeahbutstill.controller;
 import com.yeahbutstill.dao.UserDao;
 import com.yeahbutstill.entity.User;
 import com.yeahbutstill.exception.UserNotFoundException;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -38,7 +39,7 @@ public class UserResource {
     }
 
     @PostMapping(path = "/users")
-    public ResponseEntity<User> createdUser(@RequestBody User user) {
+    public ResponseEntity<User> createdUser(@Valid @RequestBody User user) {
         User savedUser = userDao.save(user);
         // this base url to mapping current request /users/6 => /users/{id} => user.getId
         URI location = ServletUriComponentsBuilder.fromCurrentRequest()
