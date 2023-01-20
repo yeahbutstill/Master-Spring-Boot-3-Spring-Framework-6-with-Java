@@ -1,67 +1,32 @@
 package com.yeahbutstill.entity;
 
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.*;
+import lombok.*;
 
 import java.time.LocalDate;
 
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@EqualsAndHashCode
+@ToString
 public class User {
 
-    @NotNull
-    @NotEmpty
-    @NotBlank
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
-    @NotEmpty
     @NotBlank
-    @Size(min = 6, max = 30)
+    @NotEmpty
+    @Size(min = 3, max = 30, message = "Name should have at least 3 characters")
     private String name;
 
     @NotNull
-    @NotEmpty
-    @NotBlank
-    @Past
+    @PastOrPresent(message = "Birth Date should be in the past or present")
     private LocalDate birthDate;
 
-    public User() {
-    }
-
-    public User(Long id, String name, LocalDate birthDate) {
-        this.id = id;
-        this.name = name;
-        this.birthDate = birthDate;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public LocalDate getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(LocalDate birthDate) {
-        this.birthDate = birthDate;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", birthDate=" + birthDate +
-                '}';
-    }
 }
