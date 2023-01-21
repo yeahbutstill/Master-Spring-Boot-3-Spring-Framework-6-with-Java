@@ -1,4 +1,4 @@
-package com.yeahbutstill.versioning;
+package com.yeahbutstill.controller.versioning;
 
 import com.yeahbutstill.bean.Name;
 import com.yeahbutstill.bean.PersonV1;

@@ -1,5 +1,6 @@
 package com.yeahbutstill.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -23,10 +24,12 @@ public class User {
     @NotBlank
     @NotEmpty
     @Size(min = 3, max = 30, message = "Name should have at least 3 characters")
+    @JsonProperty("user_name")
     private String name;
 
     @NotNull
     @PastOrPresent(message = "Birth Date should be in the past or present")
+    @JsonProperty("birth_date")
     private LocalDate birthDate;
 
 }

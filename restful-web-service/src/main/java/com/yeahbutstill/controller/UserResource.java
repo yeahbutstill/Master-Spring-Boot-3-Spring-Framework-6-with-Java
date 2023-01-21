@@ -5,6 +5,8 @@ import com.yeahbutstill.entity.User;
 import com.yeahbutstill.exception.UserNotFoundException;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.EntityModel;
+import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -29,13 +31,20 @@ public class UserResource {
     }
 
     @GetMapping(path = "/users/{id}")
-    public User retrieveUser(@Valid @PathVariable Long id) {
+    public EntityModel<User> retrieveUser(@Valid @PathVariable Long id) {
         User user = userDao.findOne(id);
         if (user == null) {
             throw new UserNotFoundException("id: " + id);
         }
 
-        return user;
+        EntityModel<User> userEntityModel = EntityModel.of(user);
+        WebMvcLinkBuilder webMvcLinkBuilder = WebMvcLinkBuilder
+                .linkTo(WebMvcLinkBuilder
+                        .methodOn(this.getClass())
+                        .retrieveAllUsers());
+        userEntityModel.add(webMvcLinkBuilder.withRel("all-users"));
+
+        return userEntityModel;
     }
 
     @PostMapping(path = "/users")
