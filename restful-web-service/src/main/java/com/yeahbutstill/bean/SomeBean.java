@@ -1,6 +1,6 @@
 package com.yeahbutstill.bean;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonFilter;
 import lombok.*;
 
 @NoArgsConstructor
@@ -8,11 +8,10 @@ import lombok.*;
 @Getter
 @EqualsAndHashCode
 @ToString
+@JsonFilter("SomeBeanFilter")
 public class SomeBean {
 
     private String field1;
-
-    @JsonIgnore
     private String field2;
     private String field3;
     private String field4;
