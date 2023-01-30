@@ -15,7 +15,7 @@ import java.util.Locale;
 @RequestMapping(value = "/api/v1/hello")
 public class HelloWorldResource {
 
-    private MessageSource messageSource;
+    private final MessageSource messageSource;
 
     @Autowired
     public HelloWorldResource(MessageSource messageSource) {
@@ -24,12 +24,12 @@ public class HelloWorldResource {
 
     @GetMapping(path = "/hello-world")
     public String helloWorld() {
-        return "Hello World";
+        return "Hello World v2";
     }
 
     @GetMapping(path = "/hello-world-bean")
     public HelloWorldBean helloWorldBean() {
-        return new HelloWorldBean("Hello World");
+        return new HelloWorldBean("Hello World Bean v2");
     }
 
     // Path parameter
