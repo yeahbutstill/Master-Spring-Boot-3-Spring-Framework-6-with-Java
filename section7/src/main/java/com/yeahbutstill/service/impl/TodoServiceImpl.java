@@ -27,9 +27,10 @@ public class TodoServiceImpl implements TodoService {
     }
 
     @Override
-    public void addTodo(String username, String description, LocalDate target, Boolean done) {
+    public Todo addTodo(String username, String description, LocalDate target, Boolean done) {
         Todo todo = new Todo(todosCount++, username, description, target, done);
         todos.add(todo);
+        return todo;
     }
 
     @Override
