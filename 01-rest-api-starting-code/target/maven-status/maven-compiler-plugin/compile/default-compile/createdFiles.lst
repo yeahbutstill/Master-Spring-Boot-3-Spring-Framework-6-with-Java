@@ -1,0 +1,7 @@
+com/yeahbutstill/rest/webservices/restfulwebservices/resource/TodoResource.class
+com/yeahbutstill/rest/webservices/restfulwebservices/RestfulWebServicesApplication.class
+com/yeahbutstill/rest/webservices/restfulwebservices/security/BasicAuthenticationSecurityConfiguration.class
+com/yeahbutstill/rest/webservices/restfulwebservices/todo/TodoService.class
+com/yeahbutstill/rest/webservices/restfulwebservices/helloworld/HelloWorldBean.class
+com/yeahbutstill/rest/webservices/restfulwebservices/helloworld/HelloWorldController.class
+com/yeahbutstill/rest/webservices/restfulwebservices/todo/Todo.class

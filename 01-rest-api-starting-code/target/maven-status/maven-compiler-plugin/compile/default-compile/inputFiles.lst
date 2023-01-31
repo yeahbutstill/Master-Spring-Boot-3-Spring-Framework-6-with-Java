@@ -1,0 +1,7 @@
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/01-rest-api-starting-code/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/todo/TodoService.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/01-rest-api-starting-code/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/todo/Todo.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/01-rest-api-starting-code/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/resource/TodoResource.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/01-rest-api-starting-code/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/helloworld/HelloWorldBean.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/01-rest-api-starting-code/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/security/BasicAuthenticationSecurityConfiguration.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/01-rest-api-starting-code/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/helloworld/HelloWorldController.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/01-rest-api-starting-code/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java

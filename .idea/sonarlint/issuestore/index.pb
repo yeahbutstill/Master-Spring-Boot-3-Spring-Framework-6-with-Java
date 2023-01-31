@@ -69,8 +69,6 @@ v
 Frestful-web-service/src/main/java/com/yeahbutstill/entity/Posting.java,2/e/2e47c5df651e909f51d4ca369c47f75aecffbe0f
 s
 Crestful-web-service/src/main/java/com/yeahbutstill/entity/User.java,c/4/c4c26efa6f86bf0b06c8a81a1748d5b61113d721
-Œ
-\restful-web-service/src/main/java/com/yeahbutstill/security/SpringSecurityConfiguration.java,3/4/34ae5871fd582db4264a289493c669c8a4e2f8aa
 K
 restful-web-service/pom.xml,2/6/26d9d6fe53ad9253e2c650cee5f067513df9256b
 y
@@ -79,8 +77,6 @@ Isection05/src/main/java/com/yeahbutstill/controller/CourseController.java,e/f/
 Rrestful-web-service/src/main/java/com/yeahbutstill/controller/UserJPAResource.java,6/4/647c0bdcd59883577f8a3a3070553e9014a97417
 „
 Trestful-web-service/src/main/java/com/yeahbutstill/RestfulWebServiceApplication.java,b/5/b55f1e48dfe7e9bbdc83856a8d920c2125af89e4
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 p
 @section7/src/main/java/com/yeahbutstill/service/TodoService.java,d/d/dde779f6901ae4d33670474c22bfb35659922c6c
 …

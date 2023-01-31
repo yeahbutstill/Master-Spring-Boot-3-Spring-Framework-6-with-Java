@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/v1/todo")
+@CrossOrigin
 public class TodoResource {
 
     private final TodoServiceImpl todoServiceImpl;

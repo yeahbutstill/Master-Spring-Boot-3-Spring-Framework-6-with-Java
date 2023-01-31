@@ -52,13 +52,13 @@ public class SpringSecurityConfiguration {
                 auth -> auth
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                         .anyRequest().authenticated());
-        httpSecurity.formLogin(Customizer.withDefaults());
+        //httpSecurity.formLogin(Customizer.withDefaults());
         httpSecurity.httpBasic(Customizer.withDefaults());
         httpSecurity.sessionManagement(
                 session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
         );
         httpSecurity.csrf().disable();
-        httpSecurity.headers().frameOptions().disable();
+        //httpSecurity.headers().frameOptions().disable();
 
         return httpSecurity.build();
     }
