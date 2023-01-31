@@ -69,8 +69,6 @@ v
 Frestful-web-service/src/main/java/com/yeahbutstill/entity/Posting.java,2/e/2e47c5df651e909f51d4ca369c47f75aecffbe0f
 s
 Crestful-web-service/src/main/java/com/yeahbutstill/entity/User.java,c/4/c4c26efa6f86bf0b06c8a81a1748d5b61113d721
-K
-restful-web-service/pom.xml,2/6/26d9d6fe53ad9253e2c650cee5f067513df9256b
 y
 Isection05/src/main/java/com/yeahbutstill/controller/CourseController.java,e/f/ef5c0c948db275c7344dcb1770d8d0c4049dd0b1
 ‚

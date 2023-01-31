@@ -1,0 +1,24 @@
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10001, 'yeahbutstill', 'Get AWS Certified', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10002, 'yeahbutstill', 'Get Azure Certified', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10003, 'yeahbutstill', 'Get GCP Certified', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10004, 'yeahbutstill', 'Learn DevOps', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10005, 'yeahbutstill', 'Get OCP', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10006, 'yeahbutstill', 'Get Java Champion', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10007, 'yeahbutstill', 'Learn Vault', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10008, 'yeahbutstill', 'Learn Docker', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10009, 'yeahbutstill', 'Learn React', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10010, 'yeahbutstill', 'Learn Linux', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10011, 'yeahbutstill', 'Learn DDD', CURRENT_DATE(), false);
+INSERT INTO TODO (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values (10012, 'yeahbutstill', 'Learn Java', CURRENT_DATE(), false);
