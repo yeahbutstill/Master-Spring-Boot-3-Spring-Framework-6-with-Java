@@ -1,7 +1,7 @@
 package com.yeahbutstill.rest.webservices.restfulwebservices.resource;
 
-import com.yeahbutstill.rest.webservices.restfulwebservices.todo.Todo;
-import com.yeahbutstill.rest.webservices.restfulwebservices.todo.TodoService;
+import com.yeahbutstill.rest.webservices.restfulwebservices.pojo.Todo;
+import com.yeahbutstill.rest.webservices.restfulwebservices.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,7 +10,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/v1/todo")
-@CrossOrigin
 public class TodoResource {
 
     private final TodoService todoService;
