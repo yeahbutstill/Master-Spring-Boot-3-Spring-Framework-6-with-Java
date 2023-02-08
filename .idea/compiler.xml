@@ -10,7 +10,7 @@
         <module name="section05" />
         <module name="section16" />
         <module name="section7" />
-        <module name="outhwithspingsecurity" />
+        <module name="oauthwithspingsecurity" />
         <module name="learn-spring-framework-3" />
         <module name="restful-web-services" />
         <module name="restful-web-service" />
@@ -18,7 +18,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="learn-spring-framework-3" target="17" />
-      <module name="outhwithspingsecurity" target="17" />
+      <module name="oauthwithspingsecurity" target="17" />
       <module name="restful-web-service" target="17" />
       <module name="restful-web-services" target="17" />
       <module name="section05" target="17" />
@@ -29,7 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="learn-spring-framework-3" options="-parameters" />
-      <module name="outhwithspingsecurity" options="-parameters" />
+      <module name="oauthwithspingsecurity" options="-parameters" />
       <module name="restful-web-service" options="-parameters" />
       <module name="restful-web-services" options="-parameters" />
       <module name="section05" options="-parameters" />
