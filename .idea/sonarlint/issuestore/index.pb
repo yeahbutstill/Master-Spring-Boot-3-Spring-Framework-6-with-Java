@@ -79,5 +79,3 @@ v
 Fsection7/src/main/java/com/yeahbutstill/controller/TodoController.java,e/7/e7bbf1cc055a41fe0c7c43e6bbc801ae6f2a4afe
 y
 Isection7/src/main/java/com/yeahbutstill/controller/TodoControllerJpa.java,9/4/9465dc728054d2cd8df5f2f09927c1eaa2ef3573
-N
-oauthwithspingsecurity/pom.xml,1/5/152e0bf1fb0571477a8e43bf9567a48ebb570e95

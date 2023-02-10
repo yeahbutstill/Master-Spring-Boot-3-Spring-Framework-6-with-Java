@@ -22,7 +22,7 @@ public class HelloWorldController {
         logger.info("credentials {}", authentication.getCredentials());
         logger.info("details {}", authentication.getDetails());
 
-        return "Hello World";
+        return "Hello World v3";
     }
 
 }

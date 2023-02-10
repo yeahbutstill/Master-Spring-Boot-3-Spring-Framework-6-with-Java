@@ -21,7 +21,7 @@ COPY . /home/app
 RUN mvn -f /home/app/pom.xml clean package
 
 FROM openjdk:18.0-slim
-EXPOSE 5000
+EXPOSE 8080
 COPY --from=build /home/app/target/*.jar app.jar
 ENTRYPOINT [ "sh", "-c", "java -jar /app.jar" ]
 
@@ -34,7 +34,7 @@ FROM maven:3.8.6-openjdk-18-slim AS build
 WORKDIR /home/app
 
 COPY ./pom.xml /home/app/pom.xml
-COPY ./src/main/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java	/home/app/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java
+COPY ./src/main/java/com/yeahbutstill/oauthwithspingsecurity/OAuthwithspingsecurityApplication.java	/home/app/src/main/java/com/yeahbutstill/oauthwithspingsecurity/OAuthwithspingsecurityApplication.java
 
 RUN mvn -f /home/app/pom.xml clean package
 
@@ -42,7 +42,11 @@ COPY . /home/app
 RUN mvn -f /home/app/pom.xml clean package
 
 FROM openjdk:18.0-slim
-EXPOSE 5000
+EXPOSE 8080
 COPY --from=build /home/app/target/*.jar app.jar
 ENTRYPOINT [ "sh", "-c", "java -jar /app.jar" ]
+```
+## RUN
+```shell
+docker run -d -p 8080:8080 2819930922/oauth:v3
 ```
