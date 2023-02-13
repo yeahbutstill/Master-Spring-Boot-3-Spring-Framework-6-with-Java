@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c91390e0-5f2a-4fa1-b686-8f80b11f0717" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/04-frontend-react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-hello-world-java/01-hello-world.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-hello-world-java/01-hello-world.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-app/src/components/todo/WelcomeComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo-app/src/components/todo/WelcomeComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-app/src/components/todo/api/ApiClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-app/src/components/todo/api/ApiClient.js" afterDir="false" />
-    </list>
+    <list default="true" id="c91390e0-5f2a-4fa1-b686-8f80b11f0717" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +51,7 @@
       <updated>1676271309598</updated>
       <workItem from="1676271310910" duration="660000" />
       <workItem from="1676272314345" duration="136000" />
-      <workItem from="1676273214377" duration="2296000" />
+      <workItem from="1676273214377" duration="2902000" />
     </task>
     <servers />
   </component>

@@ -99,3 +99,5 @@ r91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservice
 ˆ91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/jwt/JwtAuthenticationController.java,5/a/5a0f204ea458362ea8460f1092ec2466c5843d3d
 ®
 ~91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/jwt/JwtSecurityConfig.java,a/8/a862dba8b70ad07a6ce01021670800cc994857ec
+·
+†91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java,6/6/668cc9f4c0c887eafd7cdb6dc24ac6fc94cdb2b7
