@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.yeahbutstill.rest.webservices.restfulwebservices.RestfulWebServicesApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.913 s - in com.yeahbutstill.rest.webservices.restfulwebservices.RestfulWebServicesApplicationTests

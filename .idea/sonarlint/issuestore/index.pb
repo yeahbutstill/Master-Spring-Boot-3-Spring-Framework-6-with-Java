@@ -87,3 +87,15 @@ Q
 qoauthwithspingsecurity/src/main/java/com/yeahbutstill/oauthwithspingsecurity/controller/HelloWorldController.java,1/e/1e05d8fbf2ed5496d2986ea556680d52964abf37
 N
 oauthwithspingsecurity/pom.xml,1/5/152e0bf1fb0571477a8e43bf9567a48ebb570e95
+È
+—91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/basic/BasicAuthenticationSecurityConfiguration.java,4/3/43d9fcac5dcbe1387abf45fff7d351ba4c3ecc0a
+¢
+r91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/todo/Todo.java,3/b/3bb48a1f7176d00c5d1543949bba22c95601377f
+³
+‚91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/helloworld/HelloWorldBean.java,f/a/fa70726d796e3f5acaa7b96a822f6d88edf80f94
+¹
+ˆ91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/helloworld/HelloWorldController.java,6/d/6d32f2a6c8031e8ec5a9d53829847a9df7340be9
+¹
+ˆ91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/jwt/JwtAuthenticationController.java,5/a/5a0f204ea458362ea8460f1092ec2466c5843d3d
+®
+~91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/jwt/JwtSecurityConfig.java,a/8/a862dba8b70ad07a6ce01021670800cc994857ec

@@ -1,0 +1,14 @@
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/helloworld/HelloWorldBean.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/jwt/JwtTokenRequest.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/todo/TodoResource.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/jwt/JwtSecurityConfig.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/todo/Todo.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/basic/BasicAuthenticationSecurityConfiguration.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/todo/TodoService.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/jwt/JwtTokenService.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/helloworld/HelloWorldController.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/jwt/JwtAuthenticationController.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/todo/repository/TodoRepository.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/jwt/JwtTokenResponse.java
+/home/dani/IdeaProjects/Master-Spring-Boot-3-Spring-Framework-6-with-Java/91-aws/03-rest-api-full-stack-h2/src/main/java/com/yeahbutstill/rest/webservices/restfulwebservices/todo/TodoJpaResource.java
