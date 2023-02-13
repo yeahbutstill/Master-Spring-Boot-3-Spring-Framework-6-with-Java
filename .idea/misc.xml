@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/section16/pom.xml" />
         <option value="$PROJECT_DIR$/outhwithspingsecurity/pom.xml" />
         <option value="$PROJECT_DIR$/oauthwithspingsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/91-aws/01-hello-world-java/pom.xml" />
+        <option value="$PROJECT_DIR$/91-aws/02-rest-api-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/91-aws/03-rest-api-full-stack-h2/pom.xml" />
       </list>
     </option>
   </component>

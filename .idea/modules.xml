@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/91-aws/01-hello-world-java/01-hello-world.iml" filepath="$PROJECT_DIR$/91-aws/01-hello-world-java/01-hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/91-aws/02-rest-api-mysql/02-rest-api-mysql.iml" filepath="$PROJECT_DIR$/91-aws/02-rest-api-mysql/02-rest-api-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/91-aws/03-rest-api-full-stack-h2/03-rest-api-full-stack-h2.iml" filepath="$PROJECT_DIR$/91-aws/03-rest-api-full-stack-h2/03-rest-api-full-stack-h2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Master-Spring-Boot-3-Spring-Framework-6-with-Java.iml" filepath="$PROJECT_DIR$/.idea/Master-Spring-Boot-3-Spring-Framework-6-with-Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework-3/learn-spring-framework-3.iml" filepath="$PROJECT_DIR$/learn-spring-framework-3/learn-spring-framework-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauthwithspingsecurity/oauthwithspingsecurity.iml" filepath="$PROJECT_DIR$/oauthwithspingsecurity/oauthwithspingsecurity.iml" />

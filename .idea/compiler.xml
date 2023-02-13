@@ -10,13 +10,19 @@
         <module name="section05" />
         <module name="section16" />
         <module name="section7" />
+        <module name="03-rest-api-full-stack-h2" />
         <module name="oauthwithspingsecurity" />
+        <module name="02-rest-api-mysql" />
+        <module name="01-hello-world" />
         <module name="learn-spring-framework-3" />
         <module name="restful-web-services" />
         <module name="restful-web-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="01-hello-world" target="17" />
+      <module name="02-rest-api-mysql" target="17" />
+      <module name="03-rest-api-full-stack-h2" target="17" />
       <module name="learn-spring-framework-3" target="17" />
       <module name="oauthwithspingsecurity" target="17" />
       <module name="restful-web-service" target="17" />
@@ -28,6 +34,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-hello-world" options="-parameters" />
+      <module name="02-rest-api-mysql" options="-parameters" />
+      <module name="03-rest-api-full-stack-h2" options="-parameters" />
       <module name="learn-spring-framework-3" options="-parameters" />
       <module name="oauthwithspingsecurity" options="-parameters" />
       <module name="restful-web-service" options="-parameters" />
