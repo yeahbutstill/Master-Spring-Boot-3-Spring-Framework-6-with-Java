@@ -1,0 +1,8 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(²İ¨¦
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·ùßóıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—äÒ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(·ùßóıÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ä şïÿÿÿÿÿ
+H
+java:S1144"+Remove this unused private "isEven" method.(ãÆË8€Æöêä0
